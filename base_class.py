@@ -45,5 +45,5 @@ class Algorithm:
             "algorithm": self.name,
             "runtime_sec": runtime,
             "num_matches": len(result),
-            "matches": result[:10]
+            "matches": result
         }
